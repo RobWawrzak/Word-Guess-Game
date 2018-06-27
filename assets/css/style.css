@@ -1,0 +1,26 @@
+body {
+  font-family: 'Open Sans', Arial, Helvetica, Sans-Serif;
+  background-color: gray;
+}
+
+#jumbo {
+  text-align: center;
+}
+
+#word-area {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-weight: bold;
+}
+
+.game-text {
+  font-size: 28px;
+  color: black;
+  min-height: 42px;
+}

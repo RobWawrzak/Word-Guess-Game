@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Hangman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+  <script src="./assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+
+  <body>
+    <div class="jumbotron" id="jumbo">
+      <h1>Let's see your knlowedge of countries in Europe!</h1>
+    </div>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h2>The Game of Hangman</h2>
+          <p id="instructions">Press any key to get started! Guess the letters in words representing countries you can find in Europe. Finish
+            the word before you run out of guesses! Press Esc to restart the game.</p>
+          <div>
+            <h3>Your wins</h3>
+            <p class="game-text" id="wins"></p>
+          </div>
+          <br>
+          <div>
+            <h3>Round</h3>
+            <p class="game-text" id="round"></p>
+          </div>
+        </div>
+        <div class="offset-md-1"></div>
+        <div class="col-md-6" id="game-area">
+          <h2>Current word</h2>
+          <div id="word-area">
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Letters already guessed</h3>
+              <p class="game-text" id="wrong-letters"></p>
+            </div>
+            <div class="col-md-12">
+              <h3>Number of guesses remaining</h3>
+              <p class="game-text" id="available-guesses"></p>
+            </div>
+            <br>
+            <div class="col-md-12">
+              <h3>Round status</h3>
+              <p class="game-text" id="round-status"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+</html>
