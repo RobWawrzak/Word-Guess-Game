@@ -14,6 +14,8 @@ document.querySelector('#available-guesses').textContent = availableGuesses;
 
 // create a list of words
 
+// look at country anthems
+
 var wordList = {
   word1: ['croatia'],
   word2: ['serbia'],
